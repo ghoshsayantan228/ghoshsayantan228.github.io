@@ -4,29 +4,26 @@ author_profile: true
 permalink: /
 ---
 
-## About Me
+# About Me
 
-I am a Data and Analytics professional with over four years of experience at PwC India, working on data engineering, analytics, automation and large-scale data processing projects for international clients.
+I am a Data & Analytics professional with experience in data engineering, analytics, automation and large-scale data processing. I am currently working at PwC India and will begin my M.Sc. in Data Science at the University of Regensburg in October 2026.
 
-My work has involved Python, SQL, Databricks, PySpark, Snowflake, Microsoft Fabric, Azure and Power BI. I have worked with large datasets, data quality and validation, reporting solutions and data pipeline automation across different industries.
-
-I hold a B.Sc. (Hons.) in Statistics and will begin my M.Sc. in Data Science at the University of Regensburg in October 2026.
-
-My current areas of interest include:
-
-- Data Analytics
-- Data Engineering
-- Business Intelligence
-- Statistical Analysis
-- Machine Learning and Data Science
-- Process Automation
+My experience includes Python, SQL, PySpark, Databricks, Snowflake, Microsoft Fabric, Azure and Power BI.
 
 ## Professional Experience
 
-### PwC India — Associate, Data Engineering
+### PwC India
+**Associate — Data Engineering**  
+**Aug 2022 – Sep 2026 · Kolkata, India**
 
-**Aug 2022 – Sep 2026 | Kolkata, India**
+Worked on data and analytics projects for international clients, including large-scale data processing, legacy workflow migration, data validation, automation and reporting solutions.
 
-I have worked on data and analytics projects for international clients, including legacy workflow migrations, large-scale data processing, data validation, automation and reporting solutions.
+**Technologies:** Python, SQL, PySpark, Databricks, Snowflake, Microsoft Fabric, Azure, Power BI.
 
-Some of the technologies I have worked with include Python, SQL, PySpark, Databricks, Snowflake, Microsoft Fabric, Azure and Power BI.
+## Areas of Interest
+
+- Data Engineering
+- Data Analytics & Business Intelligence
+- Statistical Analysis
+- Machine Learning & Data Science
+- Financal Markets
