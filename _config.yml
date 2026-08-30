@@ -4,34 +4,35 @@ site_theme               : "default"
 title                    : "Sayantan Ghosh"
 title_separator          : "-"
 name                     : "Sayantan Ghosh"
-description              : "Academic and Professional Portfolio"
-url                      : "https://pogboomz.github.io"
+description              : "Data Engineering | Analytics | Data Science"
+
+url                      : "https://ghoshsayantan228.github.io"
 baseurl                  : ""
-repository               : "pogboomz/pogboomz.github.io"
+repository               : "ghoshsayantan228/ghoshsayantan228.github.io"
 
 # Author Information (Sidebar)
 author:
-  avatar           : "profile.jpg"   # Make sure profile.jpg is inside /images/
+  avatar           : "/assets/images/profile.jpg"
   name             : "Sayantan Ghosh"
   pronouns         : "he/him"
-  bio              : "Senior Analyst | Data Engineering | Quantitative Finance Enthusiast"
+  bio              : "Associate | Data Engineering | Incoming Data Science Masters Student"
   location         : "India"
   employer         : "PwC India"
   uri              :
   email            : "ghoshsayantan228@gmail.com"
 
   # Development Profiles
-  github           : "pogboomz"
+  github           : "ghoshsayantan228"
   linkedin         : "your-linkedin-username"
 
 # Remove unnecessary academic links
 publication_category:
   books:
-    title: 'Books'
+    title: "Books"
   manuscripts:
-    title: 'Journal Articles'
+    title: "Journal Articles"
   conferences:
-    title: 'Conference Papers'
+    title: "Conference Papers"
 
 # Site Settings
 breadcrumbs              : false
@@ -82,6 +83,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+
   - scope:
       path: ""
       type: portfolio
