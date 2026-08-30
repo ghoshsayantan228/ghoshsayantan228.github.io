@@ -8,14 +8,14 @@ author_profile: true
 <div style="width: 100%; text-align: center;">
 
   <iframe
-    src="/files/Sayantan_Ghosh_Academic_CV.pdf"
+    src="/files/Sayantan_Ghosh_Academic_CV.pdf?v=2"
     width="100%"
-    height="1000px"
+    height="1100px"
     style="border: none;">
   </iframe>
 
   <p style="margin-top: 15px;">
-    <a href="/files/Sayantan_Ghosh_Academic_CV.pdf" target="_blank">
+    <a href="/files/Sayantan_Ghosh_Academic_CV.pdf?v=2" target="_blank">
       Open CV in a new tab
     </a>
   </p>
