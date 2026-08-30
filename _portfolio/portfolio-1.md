@@ -1,7 +1,23 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Data Warehouse Modernization & Pipeline Migration"
+excerpt: "Migrated and modernized large-scale data processing workflows using Databricks, PySpark and Spark SQL."
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+## Overview
+
+Contributed to the modernization of data processing workflows for an international client, supporting the migration of legacy data warehouse and ETL processes to a cloud-based data platform.
+
+## What I Worked On
+
+- Developed and maintained data transformation pipelines using PySpark and Spark SQL.
+- Processed and validated large datasets while ensuring data quality and consistency.
+- Supported the migration of legacy data workflows to a modern Databricks-based environment.
+- Worked with SQL-based data transformations and large-scale data processing.
+- Collaborated with international teams to understand requirements, investigate data issues and support delivery.
+
+## Technologies
+
+**Databricks · PySpark · Spark SQL · SQL · Python · Data Engineering**
+
+> Due to client confidentiality, specific client names, datasets and business details are not disclosed.
