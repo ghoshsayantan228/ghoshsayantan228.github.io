@@ -1,25 +1,180 @@
 ---
-title: "CRM Data Quality & Analytics"
-excerpt: "Processed and validated 1.2M+ Salesforce records daily, improving data quality for downstream sales and marketing processes."
-collection: portfolio
-category: professional
+layout: single
+title: "Projects"
+permalink: /portfolio/
+author_profile: true
 ---
 
-## Overview
+<style>
+.project-intro {
+  font-size: 1.05em;
+  margin-bottom: 2.5em;
+  color: #555;
+}
 
-Worked on a large-scale CRM data pipeline focused on improving the quality and reliability of incremental Salesforce data used by downstream business processes.
+.project-section {
+  margin-bottom: 3em;
+}
 
-## Contribution
+.project-section h2 {
+  font-size: 1.35em;
+  margin-bottom: 0.4em;
+}
 
-- Processed approximately 1.2M incremental records daily using Python and SQL.
-- Implemented deduplication and data-quality checks.
-- Investigated inconsistencies and supported corrective actions.
-- Prepared reliable datasets for downstream analysis.
+.project-section-description {
+  color: #666;
+  margin-bottom: 1.5em;
+}
 
-## Result
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.4em;
+}
 
-**1.2M+ records/day · approximately 18\% increase in qualified lead conversion**
+.project-card {
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  padding: 1.4em;
+  background: #fff;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
 
-**Technologies:** Python · SQL · Salesforce · Data Quality · Data Validation
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.07);
+}
 
-*Professional project completed at PwC India. Client-specific code, data and implementation details are not publicly available due to confidentiality.*
+.project-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.55em;
+  font-size: 1.15em;
+}
+
+.project-card h3 a {
+  text-decoration: none;
+}
+
+.project-card p {
+  color: #555;
+  margin-bottom: 0.9em;
+}
+
+.project-tags {
+  font-size: 0.88em;
+  color: #666;
+  margin-bottom: 0.8em;
+}
+
+.project-link {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 700px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<p class="project-intro">
+  Selected work in data engineering, analytics, business intelligence and data science.
+</p>
+
+<div class="project-section">
+  <h2>Featured Projects</h2>
+
+  <p class="project-section-description">
+    Personal projects and applications that you can explore directly.
+  </p>
+
+  <div class="project-grid">
+    {% for post in site.portfolio %}
+      {% if post.category == "featured" %}
+        <div class="project-card">
+          <h3>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h3>
+
+          <div class="project-tags">
+            Personal Project
+          </div>
+
+          <p>
+            {{ post.excerpt | strip_html }}
+          </p>
+
+          <a class="project-link" href="{{ post.url | relative_url }}">
+            View project →
+          </a>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<div class="project-section">
+  <h2>Professional Projects</h2>
+
+  <p class="project-section-description">
+    Selected work from my experience at PwC India. Client-specific code,
+    data and implementation details are not publicly available due to
+    confidentiality.
+  </p>
+
+  <div class="project-grid">
+    {% for post in site.portfolio %}
+      {% if post.category == "professional" %}
+        <div class="project-card">
+          <h3>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h3>
+
+          <div class="project-tags">
+            PwC India
+          </div>
+
+          <p>
+            {{ post.excerpt | strip_html }}
+          </p>
+
+          <a class="project-link" href="{{ post.url | relative_url }}">
+            View case study →
+          </a>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<div class="project-section">
+  <h2>Academic Projects</h2>
+
+  <p class="project-section-description">
+    Academic work from my background in Statistics and Data Science.
+  </p>
+
+  <div class="project-grid">
+    {% for post in site.portfolio %}
+      {% if post.category == "academic" %}
+        <div class="project-card">
+          <h3>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h3>
+
+          <div class="project-tags">
+            Academic Project
+          </div>
+
+          <p>
+            {{ post.excerpt | strip_html }}
+          </p>
+
+          <a class="project-link" href="{{ post.url | relative_url }}">
+            View project →
+          </a>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
