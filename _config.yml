@@ -12,7 +12,7 @@ repository               : "ghoshsayantan228/ghoshsayantan228.github.io"
 
 # Author Information (Sidebar)
 author:
-  avatar           : "images/profile.jpg"
+  avatar           : "profile.jpg"
   name             : "Sayantan Ghosh"
   pronouns         : "he/him"
   bio              : "Associate | Data Engineering | Incoming Data Science Masters Student"
@@ -23,7 +23,7 @@ author:
 
   # Development Profiles
   github           : "ghoshsayantan228"
-  linkedin         : "www.linkedin.com/in/sayantan-ghosh-b617b1228"
+  linkedin         : "sayantan-ghosh-b617b1228"
 
 # Remove unnecessary academic links
 publication_category:
