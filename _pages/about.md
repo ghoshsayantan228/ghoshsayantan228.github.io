@@ -6,38 +6,27 @@ permalink: /
 
 ## About Me
 
-I am a Senior Analyst at PwC India working in Data & Analytics, with 3.5 experience in building scalable data pipelines using PySpark and SQL.
+I am a Data and Analytics professional with over four years of experience at PwC India, working on data engineering, analytics, automation and large-scale data processing projects for international clients.
 
-My academic and professional interests lie in:
+My work has involved Python, SQL, Databricks, PySpark, Snowflake, Microsoft Fabric, Azure and Power BI. I have worked with large datasets, data quality and validation, reporting solutions and data pipeline automation across different industries.
 
-- Data Science 
-- Financial Mathematics  
-- Statistical Modeling  
-- Large-scale Data Engineering Systems  
+I hold a B.Sc. (Hons.) in Statistics and will begin my M.Sc. in Data Science at the University of Regensburg in October 2026.
 
-I am preparing to pursue advanced studies in Applied Mathematics or Data Science.
+My current areas of interest include:
 
----
+- Data Analytics
+- Data Engineering
+- Business Intelligence
+- Statistical Analysis
+- Machine Learning and Data Science
+- Process Automation
 
 ## Professional Experience
 
-**Senior Analyst – PwC India**
+### PwC India — Associate, Data Engineering
 
-- Designed and optimized enterprise-grade PySpark pipelines  
-- Implemented SCD architectures and performance improvements  
-- Built scalable transformation frameworks for analytics systems  
+**Aug 2022 – Sep 2026 | Kolkata, India**
 
----
+I have worked on data and analytics projects for international clients, including legacy workflow migrations, large-scale data processing, data validation, automation and reporting solutions.
 
-## Technical Skills
-
-SQl | PySpark | Python | Snowflake | Azure Data Engineering | Alteyx | Databricks  
-
----
-
-## Research Interests
-
-- Stochastic Processes  
-- Optimization Methods  
-- Investment Strategies  
-- Statistical Learning
+Some of the technologies I have worked with include Python, SQL, PySpark, Databricks, Snowflake, Microsoft Fabric, Azure and Power BI.
